@@ -46,7 +46,7 @@ jobs:
       with:
         arguments: clean build
         #arguments: build
-      env:
+      #env:
         #USERNAME: ${{ github.actor }}
         #TOKEN: ${{ secrets.GITHUB_TOKEN }}
 

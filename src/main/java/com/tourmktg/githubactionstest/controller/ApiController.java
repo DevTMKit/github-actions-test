@@ -12,4 +12,9 @@ public class ApiController {
     public String Hello(){
         return "hello spring boot!";
     }
+    // TODO : 단순테스트
+    @GetMapping("/hello5") // http://localhost:9090/api/hello4
+    public String Hello5(){
+        return "hello5 spring boot!";
+    }
 }
